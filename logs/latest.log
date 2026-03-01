@@ -1,0 +1,734 @@
+[09:36:06] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.13, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09:36:06] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.10 by Arch Linux; OS Linux arch amd64 version 6.18.8-zen2-1-zen
+[09:36:07] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09:36:07] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/bill/steam_library_servers/minecraft.test/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23105!/ Service=ModLauncher Env=SERVER
+[09:36:09] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[09:36:09] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[09:36:09] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /home/bill/steam_library_servers/minecraft.test/mods/architectury-9.2.14-forge.jar
+[09:36:09] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: /home/bill/steam_library_servers/minecraft.test/mods/cloth-config-11.1.136-forge.jar
+[09:36:09] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 46 dependencies adding them to mods collection
+[09:36:11] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[09:36:11] [main/INFO] [mixin]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[09:36:11] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[09:36:12] [main/INFO] [ModernFix]: Loaded configuration file for ModernFix 5.24.3+mc1.20.1: 96 options available, 0 override(s) found
+[09:36:12] [main/INFO] [ModernFix]: Applying Nashorn fix
+[09:36:12] [main/INFO] [ModernFix]: Applied Forge config corruption patch
+[09:36:12] [main/WARN] [mixin]: Reference map 'ottoTrident.refmap.json' for addurdisc.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/WARN] [mixin]: Reference map 'rechiseledchipped.refmap.json' for rechiseled_chipped.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/WARN] [mixin]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/INFO] [Canary]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[09:36:12] [main/WARN] [mixin]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/WARN] [mixin]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/WARN] [mixin]: Reference map 'cc_vs-forge-refmap.json' for cc_vs.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/WARN] [mixin]: Reference map 'chiselsandbits.refmap.json' for chisels-and-bits.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:36:12] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:12] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:13] [main/WARN] [mixin]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[09:36:13] [main/WARN] [mixin]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[09:36:13] [main/WARN] [mixin]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[09:36:13] [main/WARN] [mixin]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[09:36:13] [main/WARN] [mixin]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[09:36:13] [main/WARN] [mixin]: Error loading class: com/simibubi/create/foundation/gui/AbstractSimiScreen (java.lang.RuntimeException: Attempted to load class com/simibubi/create/foundation/gui/AbstractSimiScreen for invalid dist DEDICATED_SERVER)
+[09:36:13] [main/WARN] [mixin]: @Mixin target com.simibubi.create.foundation.gui.AbstractSimiScreen was not found create_connected.mixins.json:sequencedgearshift.AbstractSimiScreenAccessor
+[09:36:13] [main/WARN] [mixin]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[09:36:13] [main/WARN] [mixin]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[09:36:13] [main/WARN] [org.dimdev.vanillafix.MixinPlugin]: Can't get value of: "fixRecipeBookIngredientsWithTags" defaulting to false
+[09:36:13] [main/WARN] [org.dimdev.vanillafix.MixinPlugin]: Not applying "org.dimdev.vanillafix.bugs.mixins.PlayerInventoryMixin" mixin
+[09:36:13] [main/WARN] [mixin]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[09:36:13] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[09:36:13] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[09:36:14] [main/WARN] [mixin]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[09:36:14] [main/WARN] [mixin]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[09:36:14] [main/WARN] [mixin]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[09:36:14] [main/WARN] [mixin]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[09:36:14] [main/WARN] [mixin]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[09:36:14] [main/WARN] [mixin]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[09:36:14] [main/ERROR] [mixin]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:121) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:267) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
+	at java.lang.Class.forName(Class.java:627) ~[?:?]
+	at java.lang.Class.forName(Class.java:602) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:164) ~[fmlloader-1.20.1-47.4.13.jar%23176!/:1.0]
+	at java.util.Optional.map(Optional.java:260) [?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:164) [fmlloader-1.20.1-47.4.13.jar%23176!/:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:89) [fmlloader-1.20.1-47.4.13.jar%23176!/:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:216) [fmlloader-1.20.1-47.4.13.jar%23176!/:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) [fmlloader-1.20.1-47.4.13.jar%23176!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%2395!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:121) [mohist-1.20.1-46ca7304-server.jar:1.20.1-46ca7304]
+[09:36:14] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:36:15] [main/INFO] [net.minecraft.server.Bootstrap]: ModernFix reached bootstrap stage (18.09 s after launch)
+[09:36:15] [main/WARN] [mixin]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09:36:15] [main/WARN] [mixin]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09:36:15] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:15] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:15] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[09:36:15] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[09:36:15] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:36:15] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:36:16] [main/INFO] [net.minecraft.server.Bootstrap]: Vanilla bootstrap took 1656 milliseconds
+[09:36:17] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:17] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:36:17] [main/WARN] [mixin]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ServerPlayerMixin->@Redirect::securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ServerPlayerMixin->@Redirect::railways$securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1200
+[09:36:17] [main/WARN] [mixin]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 143 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;, Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[09:36:19] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[09:36:20] [modloading-worker-0/INFO] [Advanced Peripherals]: AdvancedPeripherals says hello!
+[09:36:20] [modloading-worker-0/INFO] [wile.rsgauges.ModRsGauges]: Gauges and Switches GIT id #325ffff.
+[09:36:20] [modloading-worker-0/INFO] [scena-forge]: Initialized scena-forge
+[09:36:20] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi]: Kiwi Customization is enabled
+[09:36:20] [modloading-worker-0/INFO] [Create: Interiors]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
+[09:36:20] [modloading-worker-0/INFO] [create_new_age]: Hello 1.20.1 Create!
+[09:36:20] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[09:36:20] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.4.13, for MC 1.20.1 with MCP 20230612.114412
+[09:36:20] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.4.13 Initialized
+[09:36:20] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:amethyst_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:coal_block}
+[09:36:20] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crying_obsidian}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lodestone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lapis_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:diamond_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:emerald_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gold_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:iron_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:netherite_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:sponge}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:glowstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:waxed_copper_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:waxed_exposed_copper}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:waxed_weathered_copper}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:waxed_oxidized_copper}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_ice}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dirt}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:ice}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:packed_ice}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:snow_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:clay}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mud}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:packed_mud}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:acacia_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:birch_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_oak_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jungle_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mangrove_roots}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:oak_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:spruce_leaves}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:ochre_froglight}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pearlescent_froglight}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:verdant_froglight}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bone_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_mushroom_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_mushroom_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_mushroom}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_mushroom}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cobweb}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mushroom_stem}
+[09:36:20] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi]: Processing 6 KiwiModule annotations
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gravel}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:hay_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:moss_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:melon}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:shroomlight}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:sand}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:soul_sand}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_roots}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_roots}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dried_kelp_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:nether_sprouts}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:nether_wart_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pumpkin}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:carved_pumpkin}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jack_o_lantern}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:vine}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_wart_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_fungus}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_fungus}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:acacia_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:birch_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_oak_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jungle_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mangrove_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:oak_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:spruce_planks}
+[09:36:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cherry_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bamboo_planks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:acacia_log}
+[09:36:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dragonlib:dragonlib_network/69a65f20acde32448da097b16eacfce9
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:birch_log}
+[09:36:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dragonlib:dragonlib_network/69d73e101ecb38b59cc59ce369f9f0e6
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_oak_log}
+[09:36:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dragonlib:dragonlib_network/fcf1d4bbbc3b340daddecfd8389e586f
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jungle_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mangrove_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:oak_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:spruce_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_stem}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_stem}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cherry_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:barrel}
+[09:36:20] [modloading-worker-0/INFO] [Advanced Peripherals]: powah not loaded, skip integration loading
+[09:36:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dragonlib:dragonlib_network/7ea7435aa82d37fbbe7321ccd48bb6b2
+[09:36:20] [modloading-worker-0/WARN] [Advanced Peripherals]: Failed to load integration for powah
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bookshelf}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:ladder}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_acacia_log}
+[09:36:20] [modloading-worker-0/WARN] [Advanced Peripherals]: Successfully loaded integration for create
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_birch_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_dark_oak_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_jungle_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_mangrove_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_oak_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_spruce_log}
+[09:36:20] [modloading-worker-0/WARN] [Advanced Peripherals]: Successfully loaded integration for mekanism
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_warped_stem}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_crimson_stem}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stripped_cherry_log}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:acacia_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:birch_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_oak_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jungle_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mangrove_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:oak_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:spruce_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cherry_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bamboo_door}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:acacia_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:birch_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_oak_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:jungle_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mangrove_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:oak_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:spruce_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:crimson_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:warped_trapdoor}
+[09:36:20] [Wyvern/INFO] [DragonLib]:                              +++ 🐉 +++                             
+[09:36:20] [Wyvern/INFO] [DragonLib]: ---------------------------------------------------------------------
+[09:36:20] [Wyvern/INFO] [DragonLib]:             Loaded DragonLib v1.20.1-2.2.16 by MrJulsen!            
+[09:36:20] [Wyvern/INFO] [DragonLib]:                        Minecraft Forge 1.20.1                       
+[09:36:20] [Wyvern/INFO] [DragonLib]: 
+[09:36:20] [Wyvern/INFO] [DragonLib]:                Discord: https://discord.gg/AeSbNgvc7f               
+[09:36:20] [Wyvern/INFO] [DragonLib]:         GitHub: https://github.com/MisterJulsen/MC-DragonLib2        
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cherry_trapdoor}
+[09:36:20] [Wyvern/INFO] [DragonLib]:   Bug Reports: https://github.com/MisterJulsen/MC-DragonLib2/issues  
+[09:36:20] [Wyvern/INFO] [DragonLib]: ---------------------------------------------------------------------
+[09:36:20] [Wyvern/INFO] [DragonLib]:                              +++ 🐉 +++                             
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bamboo_trapdoor}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:torch}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:wall_torch}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [Advanced Peripherals]: botania not loaded, skip integration loading
+[09:36:20] [modloading-worker-0/WARN] [Advanced Peripherals]: Failed to load integration for botania
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_stained_glass}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_stained_glass_pane}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_wool}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_carpet}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:ancient_debris}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:andesite}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:basalt}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blackstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:calcite}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cobblestone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dark_prismarine}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:deepslate}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:diorite}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:dripstone_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:end_stone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gilded_blackstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:granite}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magma_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mossy_cobblestone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mossy_stone_bricks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:nether_bricks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:netherrack}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:obsidian}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:prismarine}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purpur_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:quartz_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:raw_copper_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:raw_gold_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:raw_iron_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_nether_bricks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_sandstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:sandstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:stone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:smooth_stone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:tuff}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_glazed_terracotta}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:black_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:blue_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:brown_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:cyan_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:gray_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:green_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_blue_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:light_gray_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lime_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:magenta_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:orange_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pink_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:purple_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:red_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:white_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:yellow_concrete}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:bricks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:mud_bricks}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:pointed_dripstone}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:iron_bars}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:sea_lantern}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:redstone_lamp}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:redstone_block}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:lantern}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:soul_lantern}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:redstone_torch}
+[09:36:20] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.ChippedData:addRegistry:30]: Block{minecraft:redstone_wall_torch}
+[09:36:20] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge]: Initialized Chisels&Bits - Forge
+[09:36:21] [modloading-worker-0/INFO] [STDOUT]: [xyz.iwolfking.rechiseledchipped.data.Recipes:init:16]: SIZE OF CHIPPED: 275
+[09:36:21] [modloading-worker-0/WARN] [supermartijn642corelib]: Mod 'Chipped' is requesting registration helper for different modid 'rechiseled_chipped'!
+[09:36:21] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig]: Registering config for waystones:common (COMMON) with 46 properties.
+[09:36:21] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[09:36:21] [modloading-worker-0/WARN] [mixin]: Method overwrite conflict for provideShipMountedToData in create_interactive-common.mixins.json:MixinAbstractContraptionEntity, previously written by org.valkyrienskies.mod.mixin.mod_compat.create.entity.MixinAbstractContraptionEntity. Skipping method.
+[09:36:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes]: Loaded block entity configuration.
+[09:36:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks]: Loaded block configuration.
+[09:36:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups]: Loaded chisel mode group configuration.
+[09:36:21] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_data
+[09:36:21] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_rendering_data_request_part
+[09:36:21] [modloading-worker-0/WARN] [mixin]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$caf000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09:36:22] [modloading-worker-0/INFO] [Railways]: Registered bogey styles from railways
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes]: Loaded chisel mode configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes]: Loaded container type configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs]: Loaded item group configuration.
+[09:36:22] [modloading-worker-0/INFO] [STDOUT]: [org.valkyrienskies.core.impl.config.VSConfigClass$Companion:registerNetworkHandlers:-1]: registering network handlers
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems]: Loaded item configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys]: Loaded metadata key configuration.
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id createrailwaysnavigator:crn_network/24de284ed1a534cfb2664200bfb3b1e3
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id createrailwaysnavigator:crn_network/b977ce0284d33fc79f13f0af88be87d7
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties]: Loaded model property configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation]: Loaded modification operation configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups]: Loaded modification operation group configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes]: Loaded pattern placement type configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers]: Loaded recipe serializer configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags]: Loaded tag configuration.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes]: Registering recipe types.
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler]: Registering event handlers
+[09:36:22] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.platform.ForgePluginDiscoverer]: Found and loaded ChiselsAndBits plugin: create
+[09:36:22] [modloading-worker-0/INFO] [Railways]: Registering data fixers
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_data
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_save_schem_stream_request_part
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_request_failure
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:tr_load_schem_stream_send_part
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_schem_networking_load_schematic
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_request_gravity_vectors
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_gravity_settings_try_update_gravity_vectors
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_request_role_data
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_update_roles_settings
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_remove_role
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_roles_settings_try_add_new_role
+[09:36:22] [modloading-worker-0/INFO] [ModernFix]: Bypassed Mojang DFU
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_request_players_roles_data
+[09:36:22] [modloading-worker-0/INFO] [ModernFix]: Instantiating Mojang DFU
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_player_role_manager_try_change_player_role
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_requset_state
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_simple_messager_send_state_update
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_request_server_limits
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_limits_send_updated_server_limits
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_connection_mode_secondary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_rope_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_hydraulics_mode_secondary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_phys_rope_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_slider_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_sync_rotation_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_thruster_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_grav_changer_mode_secondary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_disable_connections_mode_secondary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_schem_mode_secondary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_scale_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_strip_mode_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_toolgun_command_ship_remover_primary_connection
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_request_remove_last_constraint
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_toolgun_was_reset
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_toolgun_ask_if_i_have_access
+[09:36:22] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id valkyrien_mod:c2s_server_physgun_state_changed
+[09:36:23] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder]: 0 Datafixer optimizations took 0 milliseconds
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Hex Casting
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Oh The Biomes You'll Go
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Blue Skies
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Twilight Forest
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Biomes O' Plenty
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Nature's Spirit
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Dreams and Desires
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for Quark
+[09:36:23] [modloading-worker-0/INFO] [Railways]: Registering tracks for TerraFirmaCraft
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: Module [xkdeco:entity_types] initialized
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: 		block_entity_type: 5
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: Module [kiwi:block_templates] initialized
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: 		kiwi:block_template: 2
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: Module [kiwi:block_components] initialized
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: 		kiwi:block_component: 10
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: Module [kiwi:data] initialized
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: 		recipe_serializer: 3
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: Module [kiwi:item_templates] initialized
+[09:36:24] [main/INFO] [snownee.kiwi.Kiwi]: 		kiwi:item_template: 3
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/ebony_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/full_glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/glass_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/iron_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/mahogany_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/ERROR] [snownee.kiwi.Kiwi]: Failed to parse xkdeco:kiwi/block/varnished_wardrobe.yaml: DynamicException[Unknown template: xkdeco:wardrobe; Not a map: xkdeco:wardrobe Optional.empty]
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_big_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_awning_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_awning_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_desk is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roofed_lamp is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_desk is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_awning_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_desk is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_big_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_window is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_big_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:wooden_table is not registered
+[09:36:26] [main/WARN] [snownee.kiwi.Kiwi]: Shape xkdeco:roof_ridge is not registered
+[09:36:27] [main/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Custom display sources registered!
+[09:36:28] [main/INFO] [Moonlight]: Initialized block sets in 28ms
+[09:36:29] [modloading-worker-0/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Welcome to the CREATE RAILWAYS NAVIGATOR mod by MRJULSEN.
+[09:36:29] [modloading-worker-0/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: HELLO FROM COMMON SETUP
+[09:36:29] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Version 10.4.9 initializing...
+[09:36:29] [modloading-worker-0/INFO] [com.jjthunder.terrathunder_overworld.TerrathunderOverworldMain]: HELLO FROM COMMON SETUP
+[09:36:29] [modloading-worker-0/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: DIRT BLOCK >> minecraft:dirt
+[09:36:29] [modloading-worker-0/INFO] [com.jjthunder.terrathunder_overworld.TerrathunderOverworldMain]: DIRT BLOCK >> minecraft:dirt
+[09:36:29] [modloading-worker-0/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: DIRT BLOCK >> minecraft:dirt
+[09:36:29] [modloading-worker-0/INFO] [com.jjthunder.terrathunder_overworld.TerrathunderOverworldMain]: The magic number is... 42
+[09:36:29] [modloading-worker-0/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: The magic number is... 42
+[09:36:29] [modloading-worker-0/INFO] [com.jjthunder.terrathunder_overworld.TerrathunderOverworldMain]: ITEM >> iron_ingot
+[09:36:29] [modloading-worker-0/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: ITEM >> iron_ingot
+[09:36:29] [modloading-worker-0/INFO] [lostcities]: Creating standard profiles into 'config/lostcities/profiles'
+[09:36:29] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Loaded 'Mekanism: Generators' module.
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 snowball = 1 snow_block
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 glowstone_dust = 1 glowstone
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 brick = 1 bricks
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 nether_brick = 1 nether_bricks
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 quartz = 1 quartz_block
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 melon_slice = 1 melon
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 sand = 1 sandstone
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 red_sand = 1 red_sandstone
+[09:36:29] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[09:36:29] [modloading-worker-0/INFO] [lostcities]: Reading existing profiles from 'config/lostcities/profiles'
+[09:36:29] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[09:36:29] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Mod loaded.
+[09:36:34] [main/INFO] [Moonlight]: Initialized color sets in 131ms
+[09:36:34] [main/INFO] [Supplementaries]: Finished mod setup in: [17, 3, 0, 1, 0, 0, 13, 6, 1] ms
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[09:36:34] [main/INFO] [tacz]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[09:36:34] [modloading-worker-0/INFO] [STDOUT]: [com.mrh0.createaddition.CreateAddition:postInit:130]: Create Crafts & Additions Initialized!
+[09:36:35] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/mods', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/eula.txt', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/crash-reports', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/banned-players.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/banned-ips.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/libraries', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/mohist-config', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/config', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/defaultconfigs', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/modernfix', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/help.yml', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/logs', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/wd_next.txt', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/usernamecache.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/permissions.yml', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/wd_filehost', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/Start.h', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/bukkit.yml', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/plugins', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/commands.yml', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/usercache.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/world', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/whitelist.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/mohist-1.20.1-46ca7304-server.jar', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/spigot.yml', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/ops.json', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/server.properties', ignoring
+[09:36:36] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource]: Found non-pack entry '/home/bill/steam_library_servers/minecraft.test/kiwipacks', ignoring
+[09:36:36] [main/INFO] [Supplementaries]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 55 ms
+[09:36:39] [main/INFO] [STDOUT]: [earth.terrarium.botarium.common.energy.EnergyApi:finalizeItemRegistration:54]: Finalizing energy item registration
+[09:36:39] [main/INFO] [STDOUT]: [earth.terrarium.botarium.common.fluid.FluidApi:finalizeItemRegistration:55]: Finalizing fluid item registration
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/WARN] [com.simibubi.create.Create]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[09:36:40] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 77 recipes
+[09:36:40] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5188 advancements
+[09:36:40] [main/INFO] [placebo]: Registered 0 additional recipes.
+[09:36:40] [main/INFO] [rechiseled]: Loaded 290 chiseling recipes
+[09:36:40] [main/INFO] [dan200.computercraft.impl.UpgradeManager]: Loaded 21 turtle upgrades
+[09:36:40] [main/INFO] [dan200.computercraft.impl.UpgradeManager]: Loaded 8 pocket computer upgrades
+[09:36:40] [main/INFO] [Supplementaries]: Loaded 27 flute songs
+[09:36:40] [main/INFO] [placebo]: Registered 0 gear_sets.
+[09:36:40] [main/INFO] [Moonlight]: Applied 7 data villager trades
+[09:36:40] [main/INFO] [Moonlight]: Cleared non-static resources for pack supplementaries:generated_pack in: 0 ms
+[09:36:40] [main/INFO] [Supplementaries]: Finished additional setup in 22 ms
+[09:36:40] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver]: No specified tag 'minecraft:carpets' doesn't exist!
+[09:36:40] [main/WARN] [ModernFix]: Initial datapack load took 4.156 s
+[09:36:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[09:36:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[09:36:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[09:36:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[09:36:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[09:36:41] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[09:36:41] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-46ca7304 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.4.13, NeoForge version 47.1.106)
+[09:36:44] [Server thread/INFO] []: Finalizing energy block registration
+[09:36:44] [Server thread/INFO] []: Finalizing fluid block registration
+[09:36:44] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[09:36:44] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[09:36:44] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[09:36:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[09:36:44] [Server thread/WARN] [mixin]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1200
+[09:36:45] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking]: We are not using UDP, falling back to TCP
+[09:36:50] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09:36:51] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[09:36:51] [Server thread/INFO] [com.mohistmc.MohistMC]: Enabling Mohist v1.20.1
+[09:36:51] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[09:36:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (7.605s)! For help, type "help"
+[09:36:52] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[09:36:52] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[09:36:52] [Server thread/INFO] [com.jjthunder.terrathunder_overworld.TerrathunderOverworldMain]: HELLO from server starting
+[09:36:52] [Server thread/INFO] [xyz.iwolfking.rechiseledchipped.RechiseledChipped]: HELLO from server starting
+[09:36:52] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG]: YEEEHAAW
+[09:36:52] [Advanced Display Data Manager/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Advanced Display Data Manager has been started.
+[09:36:52] [CRN Train Listener Launcher/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Train listener has been started.
+[09:36:52] [Server thread/WARN] [valkyrien_mod]: Deserialized 0 constraints
+[09:36:52] [Server thread/WARN] [ModernFix]: Dedicated server took 55.126 seconds to load
+[09:36:52] [Server thread/WARN] [mixin]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[09:36:52] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: All times have been corrected: 72987 Ticks
+[09:38:37] [Thread-3/WARN] [Supplementaries]: Failed to fetch contributors data from url https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/credits.json, java.net.ConnectException: 連線超過時間
+[09:39:15] [Server thread/INFO] []: Canary Cached BlockState Flags are disabled!
+[09:39:16] [Server thread/INFO] [ModernFix]: Using enhanced recipe sync for player Bill_LTL
+[09:39:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Bill_LTL 加入了遊戲
+[09:39:16] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Bill_LTL[/192.168.3.55:52630] logged in with entity id 1 at ([world]28.399304232217474, 100.62804833877034, 69.51066556178795)
+[09:39:28] [MiniServServer/INFO] [net.montoyo.wd.utilities.Log]: Client with UUID 5256f9bc-53c9-409c-b819-8ba85ae00525 authenticated successfully
+[09:42:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Bill_LTL lost connection: 連線中斷
+[09:42:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Bill_LTL left the game
+[09:47:48] [Server thread/INFO] [ModernFix]: Using enhanced recipe sync for player Bill_LTL
+[09:47:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Bill_LTL 加入了遊戲
+[09:47:48] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Bill_LTL[/192.168.3.55:49376] logged in with entity id 1417 at ([world]-318.9870323891531, 220.0, 62.56111014020239)
+[09:47:57] [MiniServServer/INFO] [net.montoyo.wd.utilities.Log]: Client with UUID 5256f9bc-53c9-409c-b819-8ba85ae00525 authenticated successfully
+[09:49:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Bill_LTL lost connection: 連線中斷
+[09:49:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Bill_LTL left the game
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在停止伺服器
+[11:08:13] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Stopping train listener...
+[11:08:13] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Stopping Advanced Display Data Manager...
+[11:08:13] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: All events have been closed.
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:08:13] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[11:08:13] [Physics thread/INFO] []: Running deletePhysicsResources
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[11:08:13] [Physics thread/INFO] [Burger Factory]: Deleting VSPhysicsPipelineStage resources!
+[11:08:13] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap]: Physics pipeline ending
+[11:08:13] [DefaultDispatcher-worker-17/INFO] [Burger Factory]: VSPhysicsPipelineStage is fully deleted!
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/lostcities/lostcity]'/lostcities:lostcity
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:08:13] [Server thread/INFO] [net.montoyo.wd.utilities.Log]: Miniserv server stopped
+[11:08:13] [Advanced Display Data Manager/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Advanced Display Data Manager has been stopped.
+[11:08:13] [CRN Train Listener/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator]: Train listener has been stopped.
+[11:08:14] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Uncaught exception in server thread
+com.electronwill.nightconfig.core.io.WritingException: An I/O error occured
+	at com.electronwill.nightconfig.core.io.ConfigWriter.write(ConfigWriter.java:90) ~[core-3.6.4.jar%2398!/:?]
+	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.save(WriteSyncFileConfig.java:61) ~[core-3.6.4.jar%2398!/:?]
+	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.save(AutosaveCommentedFileConfig.java:80) ~[core-3.6.4.jar%2398!/:?]
+	at net.minecraftforge.fml.config.ModConfig.save(ModConfig.java:81) ~[fmlcore-1.20.1-47.4.13.jar%23343!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.closeConfig(ConfigTracker.java:74) ~[fmlcore-1.20.1-47.4.13.jar%23343!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$unloadConfigs$2(ConfigTracker.java:55) ~[fmlcore-1.20.1-47.4.13.jar%23343!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2352) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.unloadConfigs(ConfigTracker.java:55) ~[fmlcore-1.20.1-47.4.13.jar%23343!/:?]
+	at net.minecraftforge.server.ServerLifecycleHooks.handleServerStopped(ServerLifecycleHooks.java:143) ~[forge-1.20.1-47.4.13-universal.jar%23347!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:894) ~[server-1.20.1-20230612.114412-srg.jar%23342!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23342!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.nio.file.NoSuchFileException: /home/bill/steam_library_servers/minecraft.test/config/Mekanism/general.toml
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:228) ~[?:?]
+	at com.electronwill.nightconfig.core.io.ConfigWriter.write(ConfigWriter.java:87) ~[core-3.6.4.jar%2398!/:?]
+	... 12 more
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: The server has stopped responding!
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: Mohist version: 1.20.1-46ca7304 (MC: 1.20.1)
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: Memory using: 6117MB/12288MB/12288MB
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[11:10:14] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[11:10:14] [Spigot Watchdog Thread/WARN] []: Exception in thread "Spigot Watchdog Thread" java.lang.NullPointerException: Cannot invoke "java.lang.management.ThreadInfo.getThreadName()" because "thread" is null
+[11:10:14] [Spigot Watchdog Thread/WARN] []: 	at TRANSFORMER/forge@47.4.13/org.spigotmc.WatchdogThread.dumpThread(WatchdogThread.java:91)
+[11:10:14] [Spigot Watchdog Thread/WARN] []: 	at TRANSFORMER/forge@47.4.13/org.spigotmc.WatchdogThread.run(WatchdogThread.java:67)

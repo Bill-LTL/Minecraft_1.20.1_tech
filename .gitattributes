@@ -1,0 +1,2 @@
+*.jar filter=lfs diff=lfs merge=lfs -text
+mods/mcef-libraries/linux_amd64/libcef.so filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,24 @@
+worlds:
+  DIM1:
+    worldborder: 5.9999968E7
+  DIM-1:
+    worldborder: 5.9999968E7
+  world:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+    seed: -9009907268658194742
+    environment: NORMAL
+    name: world
+    info: -/-
+    mohist: false
+    keepspawninmemory: true
+  world/DIM1:
+    difficulty: EASY
+  world/DIM-1:
+    difficulty: EASY
+  lostcity:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: lostcities
+  world/lostcities/lostcity:
+    difficulty: EASY
